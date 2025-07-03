@@ -31,13 +31,13 @@
 
 - Click "Apply Theme" to make changes active
 - Your entire VS Code interface transforms instantly
-- All settings are automatically backed up before applying
+- Reset to Default whenever you want!
 
 ### Theme Categories & Presets
 
 **🌑 Core Themes** - Professional, clean themes for everyday coding
 
-**🌈 Colorful** - Vibrant, energetic themes to boost creativity  
+**🌈 Colorful** - Vibrant, energetic themes to boost creativity
 
 **🔥 Warm** - Cozy, comfortable themes with warm color palettes
 
