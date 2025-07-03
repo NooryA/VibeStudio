@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f00d9540-7214-4817-998d-e0077e684675" width="500" alt="VibeStudio Logo" />
+  <img src="https://github.com/user-attachments/assets/f00d9540-7214-4817-998d-e0077e684675" width="300" alt="VibeStudio Logo" />
 </p>
 
 <h1 align="center">VibeStudio</h1>
