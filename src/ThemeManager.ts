@@ -377,11 +377,6 @@ export class ThemeManager {
         "titleBar.inactiveForeground": theme.editorTheme.titleBar.inactiveForeground,
         "titleBar.border": theme.editorTheme.titleBar.border,
 
-        // Panel
-        "panel.background": theme.editorTheme.panel.background,
-        "panel.border": theme.editorTheme.panel.border,
-        "panel.dropBorder": theme.editorTheme.panel.dropBorder,
-
         // Tabs
         "tab.activeBackground": theme.editorTheme.tab.activeBackground,
         "tab.activeForeground": theme.editorTheme.tab.activeForeground,
@@ -436,9 +431,6 @@ export class ThemeManager {
         "list.hoverForeground": theme.editorTheme.list.hoverForeground,
         "list.focusBackground": theme.editorTheme.list.focusBackground,
         "list.focusForeground": theme.editorTheme.list.focusForeground,
-
-        // Scrollbar
-        "scrollbar.shadow": theme.editorTheme.scrollbar.shadow,
       };
 
       Object.assign(colorCustomizations, editorColors);
