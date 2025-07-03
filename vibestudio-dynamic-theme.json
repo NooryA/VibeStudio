@@ -1,0 +1,12 @@
+{
+  "name": "VibeStudio Background Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e1e",
+    "workbench.colorCustomizations": {
+      "--vibestudio-background-url": "url('file:///c%3A/Users/Noor/AppData/Roaming/Code/User/globalStorage/vibestudio.vibestudio/backgrounds/1751493803748_lasagne.jpg')",
+      "--vibestudio-background-opacity": "1",
+      "--vibestudio-global-transparency": "1"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TermiStyle Theme",
+  "description": "Schema for TermiStyle terminal theme files",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Theme name"
+    },
+    "version": {
+      "type": "string",
+      "description": "Theme version",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "author": {
+      "type": "string",
+      "description": "Theme author"
+    },
+    "description": {
+      "type": "string",
+      "description": "Theme description"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Creation timestamp"
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last modification timestamp"
+    },
+    "font": {
+      "type": "object",
+      "properties": {
+        "family": {
+          "type": "string",
+          "description": "Font family"
+        },
+        "size": {
+          "type": "number",
+          "minimum": 8,
+          "maximum": 32,
+          "description": "Font size"
+        },
+        "weight": {
+          "type": "string",
+          "enum": ["normal", "bold", "100", "200", "300", "400", "500", "600", "700", "800", "900"],
+          "description": "Font weight"
+        },
+        "ligatures": {
+          "type": "boolean",
+          "description": "Enable font ligatures"
+        },
+        "lineHeight": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 2.0,
+          "description": "Line height"
+        }
+      },
+      "required": ["family", "size", "weight", "ligatures", "lineHeight"]
+    },
+    "cursor": {
+      "type": "object",
+      "properties": {
+        "style": {
+          "type": "string",
+          "enum": ["block", "line", "underline"],
+          "description": "Cursor style"
+        },
+        "blinking": {
+          "type": "boolean",
+          "description": "Enable cursor blinking"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Cursor color"
+        }
+      },
+      "required": ["style", "blinking", "color"]
+    },
+    "colors": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Background color"
+        },
+        "foreground": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Foreground color"
+        },
+        "selection": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$",
+          "description": "Selection color"
+        },
+        "selectionBackground": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$",
+          "description": "Selection background color"
+        },
+        "ansiBlack": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiRed": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiGreen": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiYellow": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBlue": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiMagenta": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiCyan": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiWhite": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightBlack": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightRed": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightGreen": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightYellow": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightBlue": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightMagenta": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightCyan": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "ansiBrightWhite": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "border": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Border color"
+        },
+        "tab": {
+          "type": "object",
+          "properties": {
+            "activeForeground": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+            "activeBackground": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+            "inactiveForeground": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+            "inactiveBackground": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+            "border": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" }
+          },
+          "required": ["activeForeground", "activeBackground", "inactiveForeground", "inactiveBackground", "border"]
+        }
+      },
+      "required": [
+        "background",
+        "foreground",
+        "selection",
+        "selectionBackground",
+        "ansiBlack",
+        "ansiRed",
+        "ansiGreen",
+        "ansiYellow",
+        "ansiBlue",
+        "ansiMagenta",
+        "ansiCyan",
+        "ansiWhite",
+        "ansiBrightBlack",
+        "ansiBrightRed",
+        "ansiBrightGreen",
+        "ansiBrightYellow",
+        "ansiBrightBlue",
+        "ansiBrightMagenta",
+        "ansiBrightCyan",
+        "ansiBrightWhite",
+        "border",
+        "tab"
+      ]
+    },
+    "integration": {
+      "type": "object",
+      "properties": {
+        "applyToEditor": {
+          "type": "boolean",
+          "description": "Apply colors to editor"
+        },
+        "applyToTerminal": {
+          "type": "boolean",
+          "description": "Apply colors to terminal"
+        },
+        "applyToWorkbench": {
+          "type": "boolean",
+          "description": "Apply colors to workbench"
+        },
+        "customCss": {
+          "type": "string",
+          "description": "Custom CSS for effects"
+        }
+      },
+      "required": ["applyToEditor", "applyToTerminal", "applyToWorkbench"]
+    },
+    "effects": {
+      "type": "object",
+      "properties": {
+        "transparency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Transparency percentage"
+        },
+        "blur": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Blur amount"
+        },
+        "animations": {
+          "type": "boolean",
+          "description": "Enable animations"
+        },
+        "particleEffects": {
+          "type": "boolean",
+          "description": "Enable particle effects"
+        },
+        "glowEffect": {
+          "type": "boolean",
+          "description": "Enable glow effect"
+        },
+        "scanlines": {
+          "type": "boolean",
+          "description": "Enable scanlines"
+        },
+        "crtEffect": {
+          "type": "boolean",
+          "description": "Enable CRT effect"
+        }
+      },
+      "required": ["transparency", "blur", "animations", "particleEffects", "glowEffect", "scanlines", "crtEffect"]
+    }
+  },
+  "required": ["name", "version", "created", "modified", "font", "cursor", "colors", "integration", "effects"]
+}

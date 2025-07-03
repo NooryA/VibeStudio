@@ -1,0 +1,73 @@
+{
+  "name": "Neon Glow",
+  "version": "1.0.0",
+  "author": "TermiStyle",
+  "description": "A futuristic cyberpunk theme with neon green glow effects",
+  "created": "2024-11-15T10:30:00.000Z",
+  "modified": "2024-11-15T10:30:00.000Z",
+  
+  "font": {
+    "family": "Fira Code, JetBrains Mono, monospace",
+    "size": 14,
+    "weight": "normal",
+    "ligatures": true,
+    "lineHeight": 1.2
+  },
+  
+  "cursor": {
+    "style": "block",
+    "blinking": true,
+    "color": "#00ff41"
+  },
+  
+  "colors": {
+    "background": "#0a0a0a",
+    "foreground": "#00ff41",
+    "selection": "#00ff4140",
+    "selectionBackground": "#00ff4140",
+    
+    "ansiBlack": "#000000",
+    "ansiRed": "#ff0040",
+    "ansiGreen": "#00ff41",
+    "ansiYellow": "#ffff00",
+    "ansiBlue": "#0080ff",
+    "ansiMagenta": "#ff00ff",
+    "ansiCyan": "#00ffff",
+    "ansiWhite": "#ffffff",
+    
+    "ansiBrightBlack": "#404040",
+    "ansiBrightRed": "#ff4080",
+    "ansiBrightGreen": "#40ff80",
+    "ansiBrightYellow": "#ffff40",
+    "ansiBrightBlue": "#4080ff",
+    "ansiBrightMagenta": "#ff40ff",
+    "ansiBrightCyan": "#40ffff",
+    "ansiBrightWhite": "#ffffff",
+    
+    "border": "#00ff41",
+    "tab": {
+      "activeForeground": "#00ff41",
+      "activeBackground": "#0a0a0a",
+      "inactiveForeground": "#40ff80",
+      "inactiveBackground": "#000000",
+      "border": "#00ff41"
+    }
+  },
+  
+  "integration": {
+    "applyToEditor": false,
+    "applyToTerminal": true,
+    "applyToWorkbench": false,
+    "customCss": ".terminal { text-shadow: 0 0 10px #00ff41; }"
+  },
+  
+  "effects": {
+    "transparency": 10,
+    "blur": 0,
+    "animations": true,
+    "particleEffects": false,
+    "glowEffect": true,
+    "scanlines": false,
+    "crtEffect": false
+  }
+} 

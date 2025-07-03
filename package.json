@@ -1,0 +1,167 @@
+{
+  "name": "vibestudio",
+  "displayName": "VibeStudio",
+  "description": "Fully customize your entire VS Code theme with live preview, comprehensive color controls, and seamless theme management for editor, terminal, and workbench",
+  "version": "1.0.0",
+  "publisher": "vibestudio",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "colors",
+    "customization",
+    "editor",
+    "terminal",
+    "workbench",
+    "syntax",
+    "preview",
+    "vscode"
+  ],
+  "activationEvents": [
+    "onCommand:vibestudio.openCustomizer"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vibestudio.openCustomizer",
+        "title": "Open Theme Customizer",
+        "category": "VibeStudio",
+        "icon": "$(paintcan)"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "vibestudio.openCustomizer",
+          "when": "true"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "vibestudio.openCustomizer",
+          "when": "resourceExtname == .vibestudio",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "VibeStudio",
+      "properties": {
+        "vibestudio.autoSwitch.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable automatic theme switching based on time or system theme"
+        },
+        "vibestudio.autoSwitch.mode": {
+          "type": "string",
+          "enum": [
+            "time",
+            "system"
+          ],
+          "default": "system",
+          "description": "Auto-switch mode: 'time' for time-based switching, 'system' for system theme detection"
+        },
+        "vibestudio.autoSwitch.lightTheme": {
+          "type": "string",
+          "default": "",
+          "description": "Path to light theme file for auto-switching"
+        },
+        "vibestudio.autoSwitch.darkTheme": {
+          "type": "string",
+          "default": "",
+          "description": "Path to dark theme file for auto-switching"
+        },
+        "vibestudio.autoSwitch.lightHour": {
+          "type": "number",
+          "default": 6,
+          "description": "Hour to switch to light theme (24-hour format)"
+        },
+        "vibestudio.autoSwitch.darkHour": {
+          "type": "number",
+          "default": 18,
+          "description": "Hour to switch to dark theme (24-hour format)"
+        },
+        "vibestudio.presets.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show preset themes in the customizer"
+        },
+        "vibestudio.livePreview.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable live preview in the theme customizer"
+        },
+        "vibestudio.backup.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically backup settings before applying themes"
+        }
+      }
+    },
+    "languages": [
+      {
+        "id": "vibestudio-theme",
+        "aliases": [
+          "VibeStudio Theme",
+          "vibestudio"
+        ],
+        "extensions": [
+          ".vibestudio",
+          ".code-theme"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "jsonValidation": [
+      {
+        "fileMatch": "*.vibestudio",
+        "url": "./schemas/vibestudio-theme.schema.json"
+      },
+      {
+        "fileMatch": "*.code-theme",
+        "url": "./schemas/vibestudio-theme.schema.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "@vscode/test-electron": "^2.2.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.4",
+    "@vscode/vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "chroma-js": "^2.4.2",
+    "color-convert": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibestudio/vibestudio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vibestudio/vibestudio/issues"
+  },
+  "homepage": "https://github.com/vibestudio/vibestudio#readme",
+  "galleryBanner": {
+    "color": "#2D2D30",
+    "theme": "dark"
+  }
+}
