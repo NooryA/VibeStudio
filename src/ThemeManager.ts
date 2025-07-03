@@ -182,6 +182,11 @@ export class ThemeManager {
           foreground: colorCustomizations["sideBar.foreground"] || "#cccccc",
           border: colorCustomizations["sideBar.border"] || "#2d2d30",
         },
+        sideBarSectionHeader: {
+          background: colorCustomizations["sideBarSectionHeader.background"] || "#252526",
+          foreground: colorCustomizations["sideBarSectionHeader.foreground"] || "#cccccc",
+          border: colorCustomizations["sideBarSectionHeader.border"] || "#2d2d30",
+        },
         statusBar: {
           background: colorCustomizations["statusBar.background"] || "#007acc",
           foreground: colorCustomizations["statusBar.foreground"] || "#ffffff",
@@ -202,6 +207,12 @@ export class ThemeManager {
           background: colorCustomizations["panel.background"] || "#1e1e1e",
           border: colorCustomizations["panel.border"] || "#333333",
           dropBorder: colorCustomizations["panel.dropBorder"] || "#007acc",
+        },
+        panelTitle: {
+          background: colorCustomizations["panel.background"] || "#252526",
+          activeForeground: colorCustomizations["panelTitle.activeForeground"] || "#ffffff",
+          activeBorder: colorCustomizations["panelTitle.activeBorder"] || "#007acc",
+          inactiveForeground: colorCustomizations["panelTitle.inactiveForeground"] || "#cccccc80",
         },
         tab: {
           background: colorCustomizations["editorGroupHeader.tabsBackground"] || "#252526",
