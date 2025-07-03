@@ -93,6 +93,17 @@ export const gothicPresets: ThemePreset[] = [
           foreground: "#8b0000",
           border: "#2f2f2f",
         },
+        sideBarSectionHeader: {
+          background: "#1a1a1a",
+          foreground: "#8b0000",
+          border: "#daa520",
+        },
+        panelTitle: {
+          background: "#0d0d0d",
+          activeForeground: "#8b0000",
+          activeBorder: "#daa520",
+          inactiveForeground: "#696969",
+        },
         statusBar: {
           background: "#8b0000",
           foreground: "#ffffff",
@@ -296,6 +307,17 @@ export const gothicPresets: ThemePreset[] = [
           background: "#0d0d0d",
           foreground: "#dc143c",
           border: "#333333",
+        },
+        sideBarSectionHeader: {
+          background: "#1a1a1a",
+          foreground: "#dc143c",
+          border: "#800020",
+        },
+        panelTitle: {
+          background: "#0d0d0d",
+          activeForeground: "#dc143c",
+          activeBorder: "#dc143c",
+          inactiveForeground: "#800020",
         },
         statusBar: {
           background: "#dc143c",
@@ -501,6 +523,17 @@ export const gothicPresets: ThemePreset[] = [
           foreground: "#9acd32",
           border: "#483d8b",
         },
+        sideBarSectionHeader: {
+          background: "#2e2e5a",
+          foreground: "#9acd32",
+          border: "#9acd32",
+        },
+        panelTitle: {
+          background: "#0f0f23",
+          activeForeground: "#9acd32",
+          activeBorder: "#9acd32",
+          inactiveForeground: "#8b008b",
+        },
         statusBar: {
           background: "#9acd32",
           foreground: "#0f0f23",
@@ -704,6 +737,17 @@ export const gothicPresets: ThemePreset[] = [
           background: "#1c1c1c",
           foreground: "#c0c0c0",
           border: "#696969",
+        },
+        sideBarSectionHeader: {
+          background: "#2f2f2f",
+          foreground: "#c0c0c0",
+          border: "#c0c0c0",
+        },
+        panelTitle: {
+          background: "#1c1c1c",
+          activeForeground: "#c0c0c0",
+          activeBorder: "#c0c0c0",
+          inactiveForeground: "#a9a9a9",
         },
         statusBar: {
           background: "#c0c0c0",

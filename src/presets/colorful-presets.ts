@@ -98,6 +98,12 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#ffffff",
           border: "#e91e63",
         },
+        panelTitle: {
+          background: "#fff0f3",
+          activeForeground: "#880e4f",
+          activeBorder: "#e91e63",
+          inactiveForeground: "#ad1457",
+        },
         statusBar: {
           background: "#e91e63",
           foreground: "#ffffff",
@@ -306,6 +312,12 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#4a1e2e",
           foreground: "#f8bbd9",
           border: "#e91e63",
+        },
+        panelTitle: {
+          background: "#1a0d14",
+          activeForeground: "#f8bbd9",
+          activeBorder: "#e91e63",
+          inactiveForeground: "#ad6b85",
         },
         statusBar: {
           background: "#e91e63",
@@ -516,6 +528,12 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#ffc107",
           border: "#ff1744",
         },
+        panelTitle: {
+          background: "#0d1117",
+          activeForeground: "#f0f6fc",
+          activeBorder: "#ff1744",
+          inactiveForeground: "#8b949e",
+        },
         statusBar: {
           background: "#ff1744",
           foreground: "#ffffff",
@@ -724,6 +742,12 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#f3e5f5",
           foreground: "#ff69b4",
           border: "#ffef5b",
+        },
+        panelTitle: {
+          background: "#fef7ff",
+          activeForeground: "#6d597a",
+          activeBorder: "#ff69b4",
+          inactiveForeground: "#9c88a6",
         },
         statusBar: {
           background: "#ff69b4",
@@ -934,6 +958,12 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#ff6b35",
           border: "#abd1c6",
         },
+        panelTitle: {
+          background: "#004643",
+          activeForeground: "#f9bc60",
+          activeBorder: "#ff6b35",
+          inactiveForeground: "#abd1c6",
+        },
         statusBar: {
           background: "#ff6b35",
           foreground: "#ffffff",
@@ -1142,6 +1172,12 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#f0f0ff",
           foreground: "#8338ec",
           border: "#ff6b9d",
+        },
+        panelTitle: {
+          background: "#faf8ff",
+          activeForeground: "#2d1b4e",
+          activeBorder: "#ff6b9d",
+          inactiveForeground: "#5a4b7a",
         },
         statusBar: {
           background: "#ff6b9d",

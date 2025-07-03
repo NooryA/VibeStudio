@@ -98,6 +98,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ffaa00",
           border: "#ff3333",
         },
+        panelTitle: {
+          background: "#050000",
+          activeForeground: "#ff4444",
+          activeBorder: "#ffaa00",
+          inactiveForeground: "#aa2222",
+        },
         statusBar: {
           background: "#ff3333",
           foreground: "#000000",
@@ -306,6 +312,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ffff00",
           border: "#e100ff",
         },
+        panelTitle: {
+          background: "#0f0f23",
+          activeForeground: "#e100ff",
+          activeBorder: "#ffff00",
+          inactiveForeground: "#9d4edd",
+        },
         statusBar: {
           background: "#e100ff",
           foreground: "#000000",
@@ -328,7 +340,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#e100ff",
         },
         tab: {
-          background: "#000000",
+          background: "#0a0a1a",
           activeBackground: "#0f0f23",
           activeForeground: "#e100ff",
           activeBorder: "#ffff00",
@@ -515,6 +527,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#00ffff",
           border: "#ff0080",
         },
+        panelTitle: {
+          background: "#000814",
+          activeForeground: "#ff0080",
+          activeBorder: "#00ffff",
+          inactiveForeground: "#0077be",
+        },
         statusBar: {
           background: "#ff0080",
           foreground: "#000000",
@@ -537,7 +555,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff0080",
         },
         tab: {
-          background: "#000000",
+          background: "#000411",
           activeBackground: "#000814",
           activeForeground: "#ff0080",
           activeBorder: "#00ffff",
@@ -724,6 +742,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#00ffff",
           border: "#ff007f",
         },
+        panelTitle: {
+          background: "#120458",
+          activeForeground: "#ff007f",
+          activeBorder: "#00ffff",
+          inactiveForeground: "#7209b7",
+        },
         statusBar: {
           background: "#ff007f",
           foreground: "#000000",
@@ -746,7 +770,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff007f",
         },
         tab: {
-          background: "#000000",
+          background: "#0f0419",
           activeBackground: "#120458",
           activeForeground: "#ff007f",
           activeBorder: "#00ffff",
@@ -932,6 +956,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           background: "#004400",
           foreground: "#ffff00",
           border: "#ccff00",
+        },
+        panelTitle: {
+          background: "#001100",
+          activeForeground: "#ccff00",
+          activeBorder: "#ffff00",
+          inactiveForeground: "#88cc00",
         },
         statusBar: {
           background: "#ccff00",
@@ -1142,6 +1172,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#66ff66",
           border: "#00ff41",
         },
+        panelTitle: {
+          background: "#000000",
+          activeForeground: "#00ff41",
+          activeBorder: "#00ff41",
+          inactiveForeground: "#33ff33",
+        },
         statusBar: {
           background: "#00ff41",
           foreground: "#000000",
@@ -1351,6 +1387,12 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ff00ff",
           border: "#40ffff",
         },
+        panelTitle: {
+          background: "#0a0a0a",
+          activeForeground: "#ffffff",
+          activeBorder: "#ff00ff",
+          inactiveForeground: "#ff40ff",
+        },
         statusBar: {
           background: "#ff00ff",
           foreground: "#0a0a0a",
@@ -1373,7 +1415,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff00ff",
         },
         tab: {
-          background: "#000000",
+          background: "#101010",
           activeBackground: "#0a0a0a",
           activeForeground: "#ffffff",
           activeBorder: "#ff00ff",

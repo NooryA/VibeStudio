@@ -308,6 +308,17 @@ export const neonPresets: ThemePreset[] = [
           foreground: "#ff0066",
           border: "#30363d",
         },
+        sideBarSectionHeader: {
+          background: "#21262d",
+          foreground: "#ff0066",
+          border: "#ff0066",
+        },
+        panelTitle: {
+          background: "#0d1117",
+          activeForeground: "#ff0066",
+          activeBorder: "#ff0066",
+          inactiveForeground: "#ff3366",
+        },
         statusBar: {
           background: "#ff0066",
           foreground: "#ffffff",
@@ -512,6 +523,17 @@ export const neonPresets: ThemePreset[] = [
           foreground: "#39ff14",
           border: "#2a4f2a",
         },
+        sideBarSectionHeader: {
+          background: "#1a2f1a",
+          foreground: "#39ff14",
+          border: "#ff1493",
+        },
+        panelTitle: {
+          background: "#0a0f0a",
+          activeForeground: "#39ff14",
+          activeBorder: "#39ff14",
+          inactiveForeground: "#7fff00",
+        },
         statusBar: {
           background: "#39ff14",
           foreground: "#0a0f0a",
@@ -715,6 +737,17 @@ export const neonPresets: ThemePreset[] = [
           background: "#001122",
           foreground: "#00bfff",
           border: "#003366",
+        },
+        sideBarSectionHeader: {
+          background: "#002244",
+          foreground: "#00bfff",
+          border: "#40ffff",
+        },
+        panelTitle: {
+          background: "#001122",
+          activeForeground: "#00bfff",
+          activeBorder: "#00bfff",
+          inactiveForeground: "#4080ff",
         },
         statusBar: {
           background: "#00bfff",

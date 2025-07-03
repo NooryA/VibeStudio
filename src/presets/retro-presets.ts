@@ -93,6 +93,17 @@ export const retroPresets: ThemePreset[] = [
           foreground: "#654321",
           border: "#cd853f",
         },
+        sideBarSectionHeader: {
+          background: "#deb887",
+          foreground: "#654321",
+          border: "#8b4513",
+        },
+        panelTitle: {
+          background: "#f5deb3",
+          activeForeground: "#654321",
+          activeBorder: "#8b4513",
+          inactiveForeground: "#8b4513",
+        },
         statusBar: {
           background: "#8b4513",
           foreground: "#f5deb3",
@@ -296,6 +307,17 @@ export const retroPresets: ThemePreset[] = [
           background: "#2f1b14",
           foreground: "#d2b48c",
           border: "#654321",
+        },
+        sideBarSectionHeader: {
+          background: "#3d2317",
+          foreground: "#d2b48c",
+          border: "#cd7f32",
+        },
+        panelTitle: {
+          background: "#2f1b14",
+          activeForeground: "#d2b48c",
+          activeBorder: "#cd7f32",
+          inactiveForeground: "#cd853f",
         },
         statusBar: {
           background: "#cd7f32",

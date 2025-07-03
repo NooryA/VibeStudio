@@ -93,6 +93,17 @@ export const naturePresets: ThemePreset[] = [
           foreground: "#32cd32",
           border: "#228b22",
         },
+        sideBarSectionHeader: {
+          background: "#1e4d1e",
+          foreground: "#32cd32",
+          border: "#daa520",
+        },
+        panelTitle: {
+          background: "#0f2a0f",
+          activeForeground: "#32cd32",
+          activeBorder: "#daa520",
+          inactiveForeground: "#6b8e23",
+        },
         statusBar: {
           background: "#32cd32",
           foreground: "#000000",
@@ -296,6 +307,17 @@ export const naturePresets: ThemePreset[] = [
           background: "#0b1426",
           foreground: "#00bfff",
           border: "#1c2841",
+        },
+        sideBarSectionHeader: {
+          background: "#162032",
+          foreground: "#00bfff",
+          border: "#ffd43b",
+        },
+        panelTitle: {
+          background: "#0b1426",
+          activeForeground: "#00bfff",
+          activeBorder: "#ffd43b",
+          inactiveForeground: "#74c0fc",
         },
         statusBar: {
           background: "#00bfff",
@@ -501,6 +523,17 @@ export const naturePresets: ThemePreset[] = [
           foreground: "#e0f6ff",
           border: "#415a77",
         },
+        sideBarSectionHeader: {
+          background: "#1b263b",
+          foreground: "#e0f6ff",
+          border: "#00ffff",
+        },
+        panelTitle: {
+          background: "#0d1b2a",
+          activeForeground: "#e0f6ff",
+          activeBorder: "#00ffff",
+          inactiveForeground: "#778da9",
+        },
         statusBar: {
           background: "#00ffff",
           foreground: "#0d1b2a",
@@ -705,6 +738,17 @@ export const naturePresets: ThemePreset[] = [
           foreground: "#5d4e75",
           border: "#f8d7da",
         },
+        sideBarSectionHeader: {
+          background: "#f5f5f5",
+          foreground: "#d63384",
+          border: "#d63384",
+        },
+        panelTitle: {
+          background: "#fef7f7",
+          activeForeground: "#5d4e75",
+          activeBorder: "#d63384",
+          inactiveForeground: "#8e8e93",
+        },
         statusBar: {
           background: "#d63384",
           foreground: "#ffffff",
@@ -908,6 +952,17 @@ export const naturePresets: ThemePreset[] = [
           background: "#2f1b14",
           foreground: "#ffa500",
           border: "#8b4513",
+        },
+        sideBarSectionHeader: {
+          background: "#3d2317",
+          foreground: "#ffa500",
+          border: "#d2691e",
+        },
+        panelTitle: {
+          background: "#2f1b14",
+          activeForeground: "#ffa500",
+          activeBorder: "#d2691e",
+          inactiveForeground: "#cd853f",
         },
         statusBar: {
           background: "#d2691e",

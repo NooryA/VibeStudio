@@ -93,6 +93,17 @@ export const warmPresets: ThemePreset[] = [
           foreground: "#ff6347",
           border: "#8b4513",
         },
+        sideBarSectionHeader: {
+          background: "#3b2414",
+          foreground: "#ff6347",
+          border: "#ffd700",
+        },
+        panelTitle: {
+          background: "#2b1810",
+          activeForeground: "#ff6347",
+          activeBorder: "#ffd700",
+          inactiveForeground: "#cd853f",
+        },
         statusBar: {
           background: "#ff6347",
           foreground: "#ffffff",
@@ -296,6 +307,17 @@ export const warmPresets: ThemePreset[] = [
           background: "#3c2415",
           foreground: "#d2691e",
           border: "#8b4513",
+        },
+        sideBarSectionHeader: {
+          background: "#2e1b0e",
+          foreground: "#d2691e",
+          border: "#daa520",
+        },
+        panelTitle: {
+          background: "#3c2415",
+          activeForeground: "#d2691e",
+          activeBorder: "#daa520",
+          inactiveForeground: "#a0522d",
         },
         statusBar: {
           background: "#d2691e",
@@ -501,6 +523,17 @@ export const warmPresets: ThemePreset[] = [
           foreground: "#ffc857",
           border: "#5a3016",
         },
+        sideBarSectionHeader: {
+          background: "#3d2212",
+          foreground: "#ffc857",
+          border: "#ff6b35",
+        },
+        panelTitle: {
+          background: "#2f1b0c",
+          activeForeground: "#ffc857",
+          activeBorder: "#ff6b35",
+          inactiveForeground: "#db7f67",
+        },
         statusBar: {
           background: "#ff6b35",
           foreground: "#ffffff",
@@ -705,6 +738,17 @@ export const warmPresets: ThemePreset[] = [
           foreground: "#ffd700",
           border: "#402e0d",
         },
+        sideBarSectionHeader: {
+          background: "#2d1f0a",
+          foreground: "#ffd700",
+          border: "#ffb700",
+        },
+        panelTitle: {
+          background: "#1a1309",
+          activeForeground: "#ffd700",
+          activeBorder: "#ffb700",
+          inactiveForeground: "#daa520",
+        },
         statusBar: {
           background: "#ffb700",
           foreground: "#1a1309",
@@ -908,6 +952,17 @@ export const warmPresets: ThemePreset[] = [
           background: "#1a0000",
           foreground: "#ff6600",
           border: "#330000",
+        },
+        sideBarSectionHeader: {
+          background: "#2d0000",
+          foreground: "#ff6600",
+          border: "#ff4500",
+        },
+        panelTitle: {
+          background: "#1a0000",
+          activeForeground: "#ff6600",
+          activeBorder: "#ff4500",
+          inactiveForeground: "#cc3300",
         },
         statusBar: {
           background: "#ff4500",

@@ -99,7 +99,7 @@ export const corePresets: ThemePreset[] = [
           border: "#007acc",
         },
         panelTitle: {
-          background: "#1e1e1e",
+          background: "#252526",
           activeForeground: "#ffffff",
           activeBorder: "#007acc",
           inactiveForeground: "#cccccc80",
@@ -126,7 +126,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#007acc",
         },
         tab: {
-          background: "#1a1a1a",
+          background: "#252526",
           activeBackground: "#1e1e1e",
           activeForeground: "#ffffff",
           activeBorder: "#007acc",
@@ -314,7 +314,7 @@ export const corePresets: ThemePreset[] = [
           border: "#007acc",
         },
         panelTitle: {
-          background: "#ffffff",
+          background: "#f3f3f3",
           activeForeground: "#333333",
           activeBorder: "#007acc",
           inactiveForeground: "#333333bb",
@@ -341,7 +341,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#007acc",
         },
         tab: {
-          background: "#f0f0f0",
+          background: "#ececec",
           activeBackground: "#ffffff",
           activeForeground: "#333333",
           activeBorder: "#007acc",
@@ -528,6 +528,12 @@ export const corePresets: ThemePreset[] = [
           foreground: "#ffff00",
           border: "#00ff41",
         },
+        panelTitle: {
+          background: "#000000",
+          activeForeground: "#00ff41",
+          activeBorder: "#ffff00",
+          inactiveForeground: "#00cc33",
+        },
         statusBar: {
           background: "#00ff41",
           foreground: "#000000",
@@ -550,7 +556,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#00ff41",
         },
         tab: {
-          background: "#000000",
+          background: "#001100",
           activeBackground: "#0a0a0a",
           activeForeground: "#00ff41",
           activeBorder: "#ffff00",
@@ -736,6 +742,12 @@ export const corePresets: ThemePreset[] = [
           background: "#002200",
           foreground: "#ffff00",
           border: "#00ff00",
+        },
+        panelTitle: {
+          background: "#000000",
+          activeForeground: "#00ff00",
+          activeBorder: "#ffff00",
+          inactiveForeground: "#00cc00",
         },
         statusBar: {
           background: "#00ff00",
@@ -946,6 +958,12 @@ export const corePresets: ThemePreset[] = [
           foreground: "#0969da",
           border: "#0969da",
         },
+        panelTitle: {
+          background: "#f6f8fa",
+          activeForeground: "#24292f",
+          activeBorder: "#fd7e14",
+          inactiveForeground: "#656d76",
+        },
         statusBar: {
           background: "#0969da",
           foreground: "#ffffff",
@@ -968,7 +986,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#0969da",
         },
         tab: {
-          background: "#ffffff",
+          background: "#f6f8fa",
           activeBackground: "#f6f8fa",
           activeForeground: "#24292f",
           activeBorder: "#fd7e14",
