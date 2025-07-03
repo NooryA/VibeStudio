@@ -2,7 +2,7 @@
   "name": "vibestudio",
   "displayName": "VibeStudio",
   "description": "Fully customize your entire VS Code theme with live preview, comprehensive color controls, and seamless theme management for editor, terminal, and workbench",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "icon.png",
   "publisher": "Noor",
   "engines": {
