@@ -36,12 +36,19 @@
 ### Theme Categories & Presets
 
 **🌑 Core Themes** - Professional, clean themes for everyday coding
+
 **🌈 Colorful** - Vibrant, energetic themes to boost creativity  
+
 **🔥 Warm** - Cozy, comfortable themes with warm color palettes
+
 **🌿 Nature** - Earth-inspired themes with natural color schemes
+
 **⚰️ Gothic** - Dark, mysterious themes for late-night coding sessions
+
 **💫 Neon** - Bright, electric themes with glowing accents
+
 **📺 Retro** - Nostalgic themes inspired by vintage computing
+
 **🤖 Cyberpunk** - Futuristic themes including the intense **🔒 Lock In** theme for focus sessions
 
 ### What You Can Customize
