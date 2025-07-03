@@ -115,6 +115,7 @@ export const gothicPresets: ThemePreset[] = [
           dropBorder: "#8b0000",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0d0d0d",
           activeForeground: "#8b0000",
           activeBorder: "#daa520",
@@ -318,6 +319,7 @@ export const gothicPresets: ThemePreset[] = [
           dropBorder: "#dc143c",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0d0d0d",
           activeForeground: "#dc143c",
           activeBorder: "#dc143c",
@@ -521,6 +523,7 @@ export const gothicPresets: ThemePreset[] = [
           dropBorder: "#9acd32",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0f0f23",
           activeForeground: "#9acd32",
           activeBorder: "#9acd32",
@@ -724,6 +727,7 @@ export const gothicPresets: ThemePreset[] = [
           dropBorder: "#c0c0c0",
         },
         tab: {
+          background: "#0f0f0f",
           activeBackground: "#1c1c1c",
           activeForeground: "#c0c0c0",
           activeBorder: "#c0c0c0",

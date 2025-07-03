@@ -120,6 +120,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#e91e63",
         },
         tab: {
+          background: "#fce4ec",
           activeBackground: "#fff0f3",
           activeForeground: "#880e4f",
           activeBorder: "#e91e63",
@@ -328,6 +329,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#e91e63",
         },
         tab: {
+          background: "#0d0a0b",
           activeBackground: "#1a0d14",
           activeForeground: "#f8bbd9",
           activeBorder: "#e91e63",
@@ -536,6 +538,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#ff1744",
         },
         tab: {
+          background: "#010409",
           activeBackground: "#0d1117",
           activeForeground: "#f0f6fc",
           activeBorder: "#ffc107",
@@ -744,6 +747,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#ff69b4",
         },
         tab: {
+          background: "#f8bbd9",
           activeBackground: "#fef7ff",
           activeForeground: "#6d597a",
           activeBorder: "#ffef5b",
@@ -952,6 +956,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#ff6b35",
         },
         tab: {
+          background: "#001e1d",
           activeBackground: "#004643",
           activeForeground: "#f9bc60",
           activeBorder: "#ff6b35",
@@ -1160,6 +1165,7 @@ export const colorfulPresets: ThemePreset[] = [
           dropBorder: "#ff6b9d",
         },
         tab: {
+          background: "#f0f0ff",
           activeBackground: "#faf8ff",
           activeForeground: "#2d1b4e",
           activeBorder: "#ff6b9d",

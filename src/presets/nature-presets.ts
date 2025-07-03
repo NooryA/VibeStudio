@@ -115,6 +115,7 @@ export const naturePresets: ThemePreset[] = [
           dropBorder: "#32cd32",
         },
         tab: {
+          background: "#061b06",
           activeBackground: "#0f2a0f",
           activeForeground: "#32cd32",
           activeBorder: "#daa520",
@@ -318,6 +319,7 @@ export const naturePresets: ThemePreset[] = [
           dropBorder: "#00bfff",
         },
         tab: {
+          background: "#061b06",
           activeBackground: "#0b1426",
           activeForeground: "#00bfff",
           activeBorder: "#ffd43b",
@@ -521,6 +523,7 @@ export const naturePresets: ThemePreset[] = [
           dropBorder: "#00ffff",
         },
         tab: {
+          background: "#061b06",
           activeBackground: "#0d1b2a",
           activeForeground: "#e0f6ff",
           activeBorder: "#00ffff",
@@ -724,6 +727,7 @@ export const naturePresets: ThemePreset[] = [
           dropBorder: "#d63384",
         },
         tab: {
+          background: "#ffffff",
           activeBackground: "#fef7f7",
           activeForeground: "#5d4e75",
           activeBorder: "#d63384",
@@ -927,6 +931,7 @@ export const naturePresets: ThemePreset[] = [
           dropBorder: "#d2691e",
         },
         tab: {
+          background: "#ffffff",
           activeBackground: "#2f1b14",
           activeForeground: "#ffa500",
           activeBorder: "#d2691e",

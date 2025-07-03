@@ -115,6 +115,7 @@ export const retroPresets: ThemePreset[] = [
           dropBorder: "#8b4513",
         },
         tab: {
+          background: "#deb887",
           activeBackground: "#f5deb3",
           activeForeground: "#654321",
           activeBorder: "#8b4513",
@@ -318,6 +319,7 @@ export const retroPresets: ThemePreset[] = [
           dropBorder: "#cd7f32",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#2f1b14",
           activeForeground: "#d2b48c",
           activeBorder: "#cd7f32",

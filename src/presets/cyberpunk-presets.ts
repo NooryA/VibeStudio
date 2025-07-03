@@ -120,6 +120,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ffaa00",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0a0000",
           activeForeground: "#ff4444",
           activeBorder: "#ffaa00",
@@ -327,6 +328,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#e100ff",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0f0f23",
           activeForeground: "#e100ff",
           activeBorder: "#ffff00",
@@ -535,6 +537,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff0080",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#000814",
           activeForeground: "#ff0080",
           activeBorder: "#00ffff",
@@ -542,10 +545,10 @@ export const cyberpunkPresets: ThemePreset[] = [
           inactiveBackground: "#001d3d",
           inactiveForeground: "#0077be",
           inactiveModifiedBorder: "#ffff00",
-          unfocusedActiveBackground: "#001d3d",
+          unfocusedActiveBackground: "#000814",
           unfocusedActiveForeground: "#0077be",
           unfocusedInactiveBackground: "#000000",
-          unfocusedInactiveForeground: "#023e8a",
+          unfocusedInactiveForeground: "#003566",
           border: "#003566",
         },
         input: {
@@ -743,6 +746,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff007f",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#120458",
           activeForeground: "#ff007f",
           activeBorder: "#00ffff",
@@ -951,14 +955,15 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ccff00",
         },
         tab: {
-          activeBackground: "#001100",
+          background: "#000000",
+          activeBackground: "#002200",
           activeForeground: "#ccff00",
           activeBorder: "#ffff00",
           activeBorderTop: "#ffff00",
-          inactiveBackground: "#002200",
+          inactiveBackground: "#001100",
           inactiveForeground: "#88cc00",
           inactiveModifiedBorder: "#ff00cc",
-          unfocusedActiveBackground: "#002200",
+          unfocusedActiveBackground: "#001100",
           unfocusedActiveForeground: "#88cc00",
           unfocusedInactiveBackground: "#000000",
           unfocusedInactiveForeground: "#559900",
@@ -1159,6 +1164,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#00ff41",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#000000",
           activeForeground: "#00ff41",
           activeBorder: "#00ff41",
@@ -1367,6 +1373,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           dropBorder: "#ff00ff",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0a0a0a",
           activeForeground: "#ffffff",
           activeBorder: "#ff00ff",

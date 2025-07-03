@@ -204,6 +204,7 @@ export class ThemeManager {
           dropBorder: colorCustomizations["panel.dropBorder"] || "#007acc",
         },
         tab: {
+          background: colorCustomizations["editorGroupHeader.tabsBackground"] || "#252526",
           activeBackground: colorCustomizations["tab.activeBackground"] || "#1e1e1e",
           activeForeground: colorCustomizations["tab.activeForeground"] || "#ffffff",
           activeBorder: colorCustomizations["tab.activeBorder"] || "#007acc",
@@ -389,6 +390,7 @@ export class ThemeManager {
         "titleBar.border": theme.editorTheme.titleBar.border,
 
         // Tabs
+        "editorGroupHeader.tabsBackground": theme.editorTheme.tab.background,
         "tab.activeBackground": theme.editorTheme.tab.activeBackground,
         "tab.activeForeground": theme.editorTheme.tab.activeForeground,
         "tab.activeBorder": theme.editorTheme.tab.activeBorder,

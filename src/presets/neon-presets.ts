@@ -126,6 +126,7 @@ export const neonPresets: ThemePreset[] = [
           dropBorder: "#ffff00",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0a0a0a",
           activeForeground: "#ffffff",
           activeBorder: "#ffff00",
@@ -329,6 +330,7 @@ export const neonPresets: ThemePreset[] = [
           dropBorder: "#ff0066",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0d1117",
           activeForeground: "#ff0066",
           activeBorder: "#ff0066",
@@ -532,6 +534,7 @@ export const neonPresets: ThemePreset[] = [
           dropBorder: "#39ff14",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0a0f0a",
           activeForeground: "#39ff14",
           activeBorder: "#39ff14",
@@ -735,6 +738,7 @@ export const neonPresets: ThemePreset[] = [
           dropBorder: "#00bfff",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#001122",
           activeForeground: "#00bfff",
           activeBorder: "#00bfff",

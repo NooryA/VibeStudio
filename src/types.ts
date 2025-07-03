@@ -134,6 +134,7 @@ export interface TerminalTheme {
 
     // Tabs
     tab: {
+      background: string;
       activeBackground: string;
       activeForeground: string;
       activeBorder: string;

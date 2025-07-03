@@ -115,6 +115,7 @@ export const warmPresets: ThemePreset[] = [
           dropBorder: "#ff6347",
         },
         tab: {
+          background: "#1a0e08",
           activeBackground: "#2b1810",
           activeForeground: "#ff6347",
           activeBorder: "#ffd700",
@@ -318,6 +319,7 @@ export const warmPresets: ThemePreset[] = [
           dropBorder: "#d2691e",
         },
         tab: {
+          background: "#252526",
           activeBackground: "#3c2415",
           activeForeground: "#d2691e",
           activeBorder: "#daa520",
@@ -521,6 +523,7 @@ export const warmPresets: ThemePreset[] = [
           dropBorder: "#ff6b35",
         },
         tab: {
+          background: "#252526",
           activeBackground: "#2f1b0c",
           activeForeground: "#ffc857",
           activeBorder: "#ff6b35",
@@ -724,6 +727,7 @@ export const warmPresets: ThemePreset[] = [
           dropBorder: "#ffb700",
         },
         tab: {
+          background: "#252526",
           activeBackground: "#1a1309",
           activeForeground: "#ffd700",
           activeBorder: "#ffb700",
@@ -927,6 +931,7 @@ export const warmPresets: ThemePreset[] = [
           dropBorder: "#ff4500",
         },
         tab: {
+          background: "#252526",
           activeBackground: "#1a0000",
           activeForeground: "#ff6600",
           activeBorder: "#ff4500",

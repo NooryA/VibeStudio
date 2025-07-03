@@ -126,6 +126,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#007acc",
         },
         tab: {
+          background: "#1a1a1a",
           activeBackground: "#1e1e1e",
           activeForeground: "#ffffff",
           activeBorder: "#007acc",
@@ -340,6 +341,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#007acc",
         },
         tab: {
+          background: "#f0f0f0",
           activeBackground: "#ffffff",
           activeForeground: "#333333",
           activeBorder: "#007acc",
@@ -548,6 +550,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#00ff41",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#0a0a0a",
           activeForeground: "#00ff41",
           activeBorder: "#ffff00",
@@ -756,6 +759,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#00ff00",
         },
         tab: {
+          background: "#000000",
           activeBackground: "#001100",
           activeForeground: "#00ff00",
           activeBorder: "#ffff00",
@@ -964,6 +968,7 @@ export const corePresets: ThemePreset[] = [
           dropBorder: "#0969da",
         },
         tab: {
+          background: "#ffffff",
           activeBackground: "#f6f8fa",
           activeForeground: "#24292f",
           activeBorder: "#fd7e14",
