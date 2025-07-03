@@ -98,6 +98,12 @@ export const corePresets: ThemePreset[] = [
           foreground: "#ffffff",
           border: "#007acc",
         },
+        panelTitle: {
+          background: "#1e1e1e",
+          activeForeground: "#ffffff",
+          activeBorder: "#007acc",
+          inactiveForeground: "#cccccc80",
+        },
         statusBar: {
           background: "#007acc",
           foreground: "#ffffff",
@@ -305,6 +311,12 @@ export const corePresets: ThemePreset[] = [
           background: "#e8e8e8",
           foreground: "#333333",
           border: "#007acc",
+        },
+        panelTitle: {
+          background: "#ffffff",
+          activeForeground: "#333333",
+          activeBorder: "#007acc",
+          inactiveForeground: "#333333bb",
         },
         statusBar: {
           background: "#007acc",

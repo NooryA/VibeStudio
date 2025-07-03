@@ -97,6 +97,14 @@ export interface TerminalTheme {
       border: string;
     };
 
+    // Panel Title
+    panelTitle?: {
+      background: string;
+      activeForeground: string;
+      activeBorder: string;
+      inactiveForeground: string;
+    };
+
     // Status Bar
     statusBar: {
       background: string;

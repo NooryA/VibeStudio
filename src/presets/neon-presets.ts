@@ -109,6 +109,17 @@ export const neonPresets: ThemePreset[] = [
           inactiveForeground: "#cccccc",
           border: "#333333",
         },
+        sideBarSectionHeader: {
+          background: "#0a0a0a",
+          foreground: "#ffff00",
+          border: "#333333",
+        },
+        panelTitle: {
+          background: "#0a0a0a",
+          activeForeground: "#ffff00",
+          activeBorder: "#ffff00",
+          inactiveForeground: "#cccccc",
+        },
         panel: {
           background: "#0a0a0a",
           border: "#333333",
