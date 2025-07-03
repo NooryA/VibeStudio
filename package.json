@@ -154,12 +154,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vibestudio/vibestudio.git"
+    "url": "https://github.com/NooryA/VibeStudio"
   },
   "bugs": {
-    "url": "https://github.com/vibestudio/vibestudio/issues"
+    "url": "https://github.com/NooryA/VibeStudio/issues"
   },
-  "homepage": "https://github.com/vibestudio/vibestudio#readme",
+  "homepage": "https://github.com/NooryA/VibeStudio",
   "galleryBanner": {
     "color": "#2D2D30",
     "theme": "dark"
