@@ -93,6 +93,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ff4444",
           border: "#ff3333",
         },
+        sideBarSectionHeader: {
+          background: "#1a0000",
+          foreground: "#ffaa00",
+          border: "#ff3333",
+        },
         statusBar: {
           background: "#ff3333",
           foreground: "#000000",
@@ -294,6 +299,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           background: "#0f0f23",
           foreground: "#e100ff",
           border: "#3a0ca3",
+        },
+        sideBarSectionHeader: {
+          background: "#3a0ca3",
+          foreground: "#ffff00",
+          border: "#e100ff",
         },
         statusBar: {
           background: "#e100ff",
@@ -498,6 +508,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ff0080",
           border: "#003566",
         },
+        sideBarSectionHeader: {
+          background: "#003566",
+          foreground: "#00ffff",
+          border: "#ff0080",
+        },
         statusBar: {
           background: "#ff0080",
           foreground: "#000000",
@@ -700,6 +715,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           background: "#120458",
           foreground: "#ff007f",
           border: "#3c096c",
+        },
+        sideBarSectionHeader: {
+          background: "#240090",
+          foreground: "#00ffff",
+          border: "#ff007f",
         },
         statusBar: {
           background: "#ff007f",
@@ -904,6 +924,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#ccff00",
           border: "#004400",
         },
+        sideBarSectionHeader: {
+          background: "#004400",
+          foreground: "#ffff00",
+          border: "#ccff00",
+        },
         statusBar: {
           background: "#ccff00",
           foreground: "#000000",
@@ -1107,6 +1132,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           foreground: "#00ff41",
           border: "#003300",
         },
+        sideBarSectionHeader: {
+          background: "#003300",
+          foreground: "#66ff66",
+          border: "#00ff41",
+        },
         statusBar: {
           background: "#00ff41",
           foreground: "#000000",
@@ -1309,6 +1339,11 @@ export const cyberpunkPresets: ThemePreset[] = [
           background: "#0a0a0a",
           foreground: "#ffffff",
           border: "#404040",
+        },
+        sideBarSectionHeader: {
+          background: "#404040",
+          foreground: "#ff00ff",
+          border: "#40ffff",
         },
         statusBar: {
           background: "#ff00ff",

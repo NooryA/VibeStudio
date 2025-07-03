@@ -93,6 +93,11 @@ export const corePresets: ThemePreset[] = [
           foreground: "#cccccc",
           border: "#2d2d30",
         },
+        sideBarSectionHeader: {
+          background: "#1e1e1e",
+          foreground: "#ffffff",
+          border: "#007acc",
+        },
         statusBar: {
           background: "#007acc",
           foreground: "#ffffff",
@@ -295,6 +300,11 @@ export const corePresets: ThemePreset[] = [
           background: "#f3f3f3",
           foreground: "#000000",
           border: "#e5e5e5",
+        },
+        sideBarSectionHeader: {
+          background: "#e8e8e8",
+          foreground: "#333333",
+          border: "#007acc",
         },
         statusBar: {
           background: "#007acc",
@@ -499,6 +509,11 @@ export const corePresets: ThemePreset[] = [
           foreground: "#00ff41",
           border: "#003300",
         },
+        sideBarSectionHeader: {
+          background: "#003300",
+          foreground: "#ffff00",
+          border: "#00ff41",
+        },
         statusBar: {
           background: "#00ff41",
           foreground: "#000000",
@@ -702,6 +717,11 @@ export const corePresets: ThemePreset[] = [
           foreground: "#00ff00",
           border: "#003300",
         },
+        sideBarSectionHeader: {
+          background: "#002200",
+          foreground: "#ffff00",
+          border: "#00ff00",
+        },
         statusBar: {
           background: "#00ff00",
           foreground: "#000000",
@@ -904,6 +924,11 @@ export const corePresets: ThemePreset[] = [
           background: "#ffffff",
           foreground: "#24292f",
           border: "#d0d7de",
+        },
+        sideBarSectionHeader: {
+          background: "#f6f8fa",
+          foreground: "#0969da",
+          border: "#0969da",
         },
         statusBar: {
           background: "#0969da",

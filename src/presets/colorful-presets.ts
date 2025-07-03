@@ -93,6 +93,11 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#880e4f",
           border: "#f48fb1",
         },
+        sideBarSectionHeader: {
+          background: "#f48fb1",
+          foreground: "#ffffff",
+          border: "#e91e63",
+        },
         statusBar: {
           background: "#e91e63",
           foreground: "#ffffff",
@@ -295,6 +300,11 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#1a0d14",
           foreground: "#f8bbd9",
           border: "#4a1e2e",
+        },
+        sideBarSectionHeader: {
+          background: "#4a1e2e",
+          foreground: "#f8bbd9",
+          border: "#e91e63",
         },
         statusBar: {
           background: "#e91e63",
@@ -499,6 +509,11 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#f0f6fc",
           border: "#21262d",
         },
+        sideBarSectionHeader: {
+          background: "#161b22",
+          foreground: "#ffc107",
+          border: "#ff1744",
+        },
         statusBar: {
           background: "#ff1744",
           foreground: "#ffffff",
@@ -701,6 +716,11 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#fef7ff",
           foreground: "#6d597a",
           border: "#e1bee7",
+        },
+        sideBarSectionHeader: {
+          background: "#f3e5f5",
+          foreground: "#ff69b4",
+          border: "#ffef5b",
         },
         statusBar: {
           background: "#ff69b4",
@@ -905,6 +925,11 @@ export const colorfulPresets: ThemePreset[] = [
           foreground: "#f9bc60",
           border: "#0f3433",
         },
+        sideBarSectionHeader: {
+          background: "#0f3433",
+          foreground: "#ff6b35",
+          border: "#abd1c6",
+        },
         statusBar: {
           background: "#ff6b35",
           foreground: "#ffffff",
@@ -1107,6 +1132,11 @@ export const colorfulPresets: ThemePreset[] = [
           background: "#faf8ff",
           foreground: "#2d1b4e",
           border: "#c7d2fe",
+        },
+        sideBarSectionHeader: {
+          background: "#f0f0ff",
+          foreground: "#8338ec",
+          border: "#ff6b9d",
         },
         statusBar: {
           background: "#ff6b9d",
