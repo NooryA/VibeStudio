@@ -2,6 +2,12 @@
 
 **The ultimate VS Code theme customizer with live preview, comprehensive controls, and 20+ preset themes for your entire development environment.**
 
+
+
+https://github.com/user-attachments/assets/6b1db9e4-0545-45fc-bfec-ea228fd6ad33
+
+
+
 ## Installation 📦
 
 ### From VS Code Marketplace
