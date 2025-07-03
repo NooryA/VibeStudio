@@ -61,9 +61,13 @@
 If you find VibeStudio helpful, please consider:
 
 ⭐ **Starring the repository**
+
 🐛 **Reporting issues**
+
 💡 **Suggesting new features**
+
 🎨 **Sharing your custom themes**
+
 🤝 **Contributing to the project**
 
 **Transform your VS Code experience today!** 🚀
