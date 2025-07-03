@@ -90,6 +90,13 @@ export interface TerminalTheme {
       border: string;
     };
 
+    // Side Bar Section Header
+    sideBarSectionHeader?: {
+      background: string;
+      foreground: string;
+      border: string;
+    };
+
     // Status Bar
     statusBar: {
       background: string;

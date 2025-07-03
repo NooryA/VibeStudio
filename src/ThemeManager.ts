@@ -361,6 +361,11 @@ export class ThemeManager {
         "sideBar.foreground": theme.editorTheme.sideBar.foreground,
         "sideBar.border": theme.editorTheme.sideBar.border,
 
+        // Side Bar Section Header
+        "sideBarSectionHeader.background": theme.editorTheme.sideBarSectionHeader?.background,
+        "sideBarSectionHeader.foreground": theme.editorTheme.sideBarSectionHeader?.foreground,
+        "sideBarSectionHeader.border": theme.editorTheme.sideBarSectionHeader?.border,
+
         // Status Bar
         "statusBar.background": theme.editorTheme.statusBar.background,
         "statusBar.foreground": theme.editorTheme.statusBar.foreground,
