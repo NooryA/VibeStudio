@@ -11,12 +11,6 @@
 3. Search for "VibeStudio"
 4. Click Install
 
-### From Command Line
-
-```bash
-code --install-extension vibestudio.vibestudio
-```
-
 ## Usage 🚀
 
 ### Basic Usage
