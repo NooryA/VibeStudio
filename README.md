@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/6b1db9e4-0545-45fc-bfec-ea228fd6ad33
 
 **Start Customizing:**
 
-- **Choose a preset** from 80+ built-in themes across 8 categories
+- **Choose a preset** from 20+ built-in themes across 8 categories
 - **Customize colors** for editor, terminal, activity bar, status bar, tabs, and syntax highlighting
 - **Watch changes** update in real-time with live preview!
 
