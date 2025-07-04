@@ -185,7 +185,7 @@ export const cyberpunkPresets: ThemePreset[] = [
           shadow: "#000000",
           sliderBackground: "#ff3333",
           sliderHoverBackground: "#ff6666",
-          sliderActiveBackground: "#ff0000",
+          sliderActiveBackground: "#ff9999",
         },
         breadcrumb: {
           background: "#1a0505",
@@ -195,9 +195,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#0f0202",
-          sliderBackground: "#ff3333",
-          sliderHoverBackground: "#ff6666",
-          sliderActiveBackground: "#ff0000",
+          sliderBackground: "#ff333360",
+          sliderHoverBackground: "#ff333380",
+          sliderActiveBackground: "#ff3333a0",
         },
         syntax: {
           comment: "#aa2222",
@@ -413,8 +413,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#e100ff",
-          sliderHoverBackground: "#e100ff",
-          sliderActiveBackground: "#e100ff",
+          sliderHoverBackground: "#ff00ff",
+          sliderActiveBackground: "#c77dff",
         },
         breadcrumb: {
           background: "#0f0020",
@@ -424,9 +424,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#0a0015",
-          sliderBackground: "#e100ff",
-          sliderHoverBackground: "#e100ff",
-          sliderActiveBackground: "#e100ff",
+          sliderBackground: "#e100ff60",
+          sliderHoverBackground: "#e100ff80",
+          sliderActiveBackground: "#e100ffa0",
         },
         syntax: {
           comment: "#9d4edd",
@@ -643,8 +643,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#ff0080",
-          sliderHoverBackground: "#ff0080",
-          sliderActiveBackground: "#ff0080",
+          sliderHoverBackground: "#00ffff",
+          sliderActiveBackground: "#ff69b4",
         },
         breadcrumb: {
           background: "#000814",
@@ -654,9 +654,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#000411",
-          sliderBackground: "#ff0080",
-          sliderHoverBackground: "#ff0080",
-          sliderActiveBackground: "#ff0080",
+          sliderBackground: "#ff008060",
+          sliderHoverBackground: "#ff008080",
+          sliderActiveBackground: "#ff0080a0",
         },
         syntax: {
           comment: "#0077be",
@@ -873,8 +873,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#0f0419",
           sliderBackground: "#ff007f",
-          sliderHoverBackground: "#ff007f",
-          sliderActiveBackground: "#ff007f",
+          sliderHoverBackground: "#00ffff",
+          sliderActiveBackground: "#ff69b4",
         },
         breadcrumb: {
           background: "#120458",
@@ -884,9 +884,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#0f0419",
-          sliderBackground: "#ff007f",
-          sliderHoverBackground: "#ff007f",
-          sliderActiveBackground: "#ff007f",
+          sliderBackground: "#ff007f60",
+          sliderHoverBackground: "#ff007f80",
+          sliderActiveBackground: "#ff007fa0",
         },
         syntax: {
           comment: "#7209b7",
@@ -1103,8 +1103,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#ccff00",
-          sliderHoverBackground: "#ccff00",
-          sliderActiveBackground: "#ccff00",
+          sliderHoverBackground: "#ffff00",
+          sliderActiveBackground: "#99ff00",
         },
         breadcrumb: {
           background: "#001100",
@@ -1114,9 +1114,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#000000",
-          sliderBackground: "#ccff00",
-          sliderHoverBackground: "#ccff00",
-          sliderActiveBackground: "#ccff00",
+          sliderBackground: "#ccff0060",
+          sliderHoverBackground: "#ccff0080",
+          sliderActiveBackground: "#ccff00a0",
         },
         syntax: {
           comment: "#88cc00",
@@ -1333,8 +1333,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#003300",
           sliderBackground: "#00ff41",
-          sliderHoverBackground: "#00ff41",
-          sliderActiveBackground: "#00ff41",
+          sliderHoverBackground: "#33ff66",
+          sliderActiveBackground: "#66ff99",
         },
         breadcrumb: {
           background: "#000000",
@@ -1344,9 +1344,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#001100",
-          sliderBackground: "#00ff41",
-          sliderHoverBackground: "#00ff41",
-          sliderActiveBackground: "#00ff41",
+          sliderBackground: "#00ff4160",
+          sliderHoverBackground: "#00ff4180",
+          sliderActiveBackground: "#00ff41a0",
         },
         syntax: {
           comment: "#33ff33",
@@ -1563,8 +1563,8 @@ export const cyberpunkPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#404040",
           sliderBackground: "#ff00ff",
-          sliderHoverBackground: "#ff00ff",
-          sliderActiveBackground: "#ff00ff",
+          sliderHoverBackground: "#ff40ff",
+          sliderActiveBackground: "#ff80ff",
         },
         breadcrumb: {
           background: "#0a0a0a",
@@ -1574,9 +1574,9 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#202020",
-          sliderBackground: "#ff00ff",
-          sliderHoverBackground: "#ff00ff",
-          sliderActiveBackground: "#ff00ff",
+          sliderBackground: "#ff00ff60",
+          sliderHoverBackground: "#ff00ff80",
+          sliderActiveBackground: "#ff00ffa0",
         },
         syntax: {
           comment: "#ff40ff",

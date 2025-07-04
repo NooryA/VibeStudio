@@ -182,10 +182,10 @@ export const neonPresets: ThemePreset[] = [
           focusForeground: "#000000",
         },
         scrollbar: {
-          shadow: "#333333",
+          shadow: "#000000",
           sliderBackground: "#ffff00",
-          sliderHoverBackground: "#ffff00",
-          sliderActiveBackground: "#ffff00",
+          sliderHoverBackground: "#ffff33",
+          sliderActiveBackground: "#ffff66",
         },
         breadcrumb: {
           background: "#1a1a00",
@@ -195,9 +195,9 @@ export const neonPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#2a2a00",
-          sliderBackground: "#ffff00",
-          sliderHoverBackground: "#ffff66",
-          sliderActiveBackground: "#ffff33",
+          sliderBackground: "#39ff1460",
+          sliderHoverBackground: "#39ff1480",
+          sliderActiveBackground: "#39ff14a0",
         },
         syntax: {
           comment: "#cccccc",
@@ -412,10 +412,10 @@ export const neonPresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#30363d",
+          shadow: "#000000",
           sliderBackground: "#ff0066",
-          sliderHoverBackground: "#ff0066",
-          sliderActiveBackground: "#ff0066",
+          sliderHoverBackground: "#ff3399",
+          sliderActiveBackground: "#ff66cc",
         },
         breadcrumb: {
           background: "#0d1117",
@@ -425,9 +425,9 @@ export const neonPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#21262d",
-          sliderBackground: "#ff0066",
-          sliderHoverBackground: "#ff0066",
-          sliderActiveBackground: "#ff0066",
+          sliderBackground: "#ff006660",
+          sliderHoverBackground: "#ff006680",
+          sliderActiveBackground: "#ff0066a0",
         },
         syntax: {
           comment: "#ff3366",
@@ -642,10 +642,10 @@ export const neonPresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#2a4f2a",
-          sliderBackground: "#39ff14",
-          sliderHoverBackground: "#39ff14",
-          sliderActiveBackground: "#39ff14",
+          shadow: "#000000",
+          sliderBackground: "#da70d6",
+          sliderHoverBackground: "#dda0dd",
+          sliderActiveBackground: "#e0b0e0",
         },
         breadcrumb: {
           background: "#0f1f0f",
@@ -655,9 +655,9 @@ export const neonPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#1a2f1a",
-          sliderBackground: "#39ff14",
-          sliderHoverBackground: "#39ff14",
-          sliderActiveBackground: "#39ff14",
+          sliderBackground: "#da70d660",
+          sliderHoverBackground: "#da70d680",
+          sliderActiveBackground: "#da70d6a0",
         },
         syntax: {
           comment: "#7fff00",
@@ -872,10 +872,10 @@ export const neonPresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#003366",
-          sliderBackground: "#00bfff",
-          sliderHoverBackground: "#00bfff",
-          sliderActiveBackground: "#00bfff",
+          shadow: "#000000",
+          sliderBackground: "#00ffff",
+          sliderHoverBackground: "#66ffff",
+          sliderActiveBackground: "#99ffff",
         },
         breadcrumb: {
           background: "#001122",
@@ -885,9 +885,9 @@ export const neonPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#002244",
-          sliderBackground: "#00bfff",
-          sliderHoverBackground: "#00bfff",
-          sliderActiveBackground: "#00bfff",
+          sliderBackground: "#00ffff60",
+          sliderHoverBackground: "#00ffff80",
+          sliderActiveBackground: "#00ffffa0",
         },
         syntax: {
           comment: "#4080ff",

@@ -183,9 +183,9 @@ export const corePresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#000000",
-          sliderBackground: "#797979",
-          sliderHoverBackground: "#646464b3",
-          sliderActiveBackground: "#bfbfbf40",
+          sliderBackground: "#264040",
+          sliderHoverBackground: "#456565",
+          sliderActiveBackground: "#678a8a",
         },
         breadcrumb: {
           background: "#1e1e1e",
@@ -195,9 +195,9 @@ export const corePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#1e1e1e",
-          sliderBackground: "#797979",
-          sliderHoverBackground: "#646464b3",
-          sliderActiveBackground: "#bfbfbf40",
+          sliderBackground: "#007acc60",
+          sliderHoverBackground: "#007acc80",
+          sliderActiveBackground: "#007acca0",
         },
         syntax: {
           comment: "#6a9955",
@@ -412,10 +412,10 @@ export const corePresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#dddddd",
-          sliderBackground: "#c8c8c8",
-          sliderHoverBackground: "#a6a6a6",
-          sliderActiveBackground: "#787878",
+          shadow: "#e0e0e0",
+          sliderBackground: "#0060c0",
+          sliderHoverBackground: "#0056b3",
+          sliderActiveBackground: "#004a9f",
         },
         breadcrumb: {
           background: "#f8f8f8",
@@ -425,9 +425,9 @@ export const corePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#f8f8f8",
-          sliderBackground: "#c8c8c8",
-          sliderHoverBackground: "#a6a6a6",
-          sliderActiveBackground: "#787878",
+          sliderBackground: "#007acc60",
+          sliderHoverBackground: "#007acc80",
+          sliderActiveBackground: "#007acca0",
         },
         syntax: {
           comment: "#008000",
@@ -644,8 +644,8 @@ export const corePresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#00ff41",
-          sliderHoverBackground: "#00ff41",
-          sliderActiveBackground: "#00ff41",
+          sliderHoverBackground: "#00cc33",
+          sliderActiveBackground: "#009926",
         },
         breadcrumb: {
           background: "#0a0a0a",
@@ -655,9 +655,9 @@ export const corePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#001100",
-          sliderBackground: "#00ff41",
-          sliderHoverBackground: "#00ff41",
-          sliderActiveBackground: "#00ff41",
+          sliderBackground: "#007acc60",
+          sliderHoverBackground: "#007acc80",
+          sliderActiveBackground: "#007acca0",
         },
         syntax: {
           comment: "#00cc33",
@@ -874,8 +874,8 @@ export const corePresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#00ff00",
-          sliderHoverBackground: "#00ff00",
-          sliderActiveBackground: "#00ff00",
+          sliderHoverBackground: "#00cc00",
+          sliderActiveBackground: "#009900",
         },
         breadcrumb: {
           background: "#001100",
@@ -885,9 +885,9 @@ export const corePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#000000",
-          sliderBackground: "#00ff00",
-          sliderHoverBackground: "#00ff00",
-          sliderActiveBackground: "#00ff00",
+          sliderBackground: "#007acc60",
+          sliderHoverBackground: "#007acc80",
+          sliderActiveBackground: "#007acca0",
         },
         syntax: {
           comment: "#00cc00",
@@ -1103,9 +1103,9 @@ export const corePresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#6e777840",
-          sliderBackground: "#d0d7de",
-          sliderHoverBackground: "#8c959f",
-          sliderActiveBackground: "#656d76",
+          sliderBackground: "#0969da",
+          sliderHoverBackground: "#0550c7",
+          sliderActiveBackground: "#043d9e",
         },
         breadcrumb: {
           background: "#f6f8fa",
@@ -1115,9 +1115,9 @@ export const corePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#ffffff",
-          sliderBackground: "#d0d7de",
-          sliderHoverBackground: "#8c959f",
-          sliderActiveBackground: "#656d76",
+          sliderBackground: "#007acc60",
+          sliderHoverBackground: "#007acc80",
+          sliderActiveBackground: "#007acca0",
         },
         syntax: {
           comment: "#656d76",

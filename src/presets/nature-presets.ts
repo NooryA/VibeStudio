@@ -182,10 +182,10 @@ export const naturePresets: ThemePreset[] = [
           focusForeground: "#000000",
         },
         scrollbar: {
-          shadow: "#061b06",
+          shadow: "#1b5e20",
           sliderBackground: "#32cd32",
-          sliderHoverBackground: "#32cd32",
-          sliderActiveBackground: "#32cd32",
+          sliderHoverBackground: "#7cfc00",
+          sliderActiveBackground: "#90ee90",
         },
         breadcrumb: {
           background: "#0d2a0d",
@@ -195,9 +195,9 @@ export const naturePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#1a3d1a",
-          sliderBackground: "#32cd32",
-          sliderHoverBackground: "#4dd14d",
-          sliderActiveBackground: "#28a828",
+          sliderBackground: "#228b2260",
+          sliderHoverBackground: "#228b2280",
+          sliderActiveBackground: "#228b22a0",
         },
         syntax: {
           comment: "#6b8e23",
@@ -412,10 +412,10 @@ export const naturePresets: ThemePreset[] = [
           focusForeground: "#000000",
         },
         scrollbar: {
-          shadow: "#050a14",
-          sliderBackground: "#00bfff",
-          sliderHoverBackground: "#00bfff",
-          sliderActiveBackground: "#00bfff",
+          shadow: "#b0bec5",
+          sliderBackground: "#191970",
+          sliderHoverBackground: "#483d8b",
+          sliderActiveBackground: "#6a5acd",
         },
         breadcrumb: {
           background: "#0b1426",
@@ -425,9 +425,9 @@ export const naturePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#162032",
-          sliderBackground: "#00bfff",
-          sliderHoverBackground: "#00bfff",
-          sliderActiveBackground: "#00bfff",
+          sliderBackground: "#19197060",
+          sliderHoverBackground: "#19197080",
+          sliderActiveBackground: "#191970a0",
         },
         syntax: {
           comment: "#74c0fc",
@@ -642,10 +642,10 @@ export const naturePresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#415a77",
-          sliderBackground: "#00ffff",
-          sliderHoverBackground: "#00ffff",
-          sliderActiveBackground: "#00ffff",
+          shadow: "#01579b",
+          sliderBackground: "#00bfff",
+          sliderHoverBackground: "#87ceeb",
+          sliderActiveBackground: "#b0e0e6",
         },
         breadcrumb: {
           background: "#0d1b2a",
@@ -655,9 +655,9 @@ export const naturePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#1b263b",
-          sliderBackground: "#00ffff",
-          sliderHoverBackground: "#00ffff",
-          sliderActiveBackground: "#00ffff",
+          sliderBackground: "#00bfff60",
+          sliderHoverBackground: "#00bfff80",
+          sliderActiveBackground: "#00bfffa0",
         },
         syntax: {
           comment: "#778da9",
@@ -872,10 +872,10 @@ export const naturePresets: ThemePreset[] = [
           focusForeground: "#5d4e75",
         },
         scrollbar: {
-          shadow: "#f8d7da",
+          shadow: "#880e4f",
           sliderBackground: "#d63384",
-          sliderHoverBackground: "#d63384",
-          sliderActiveBackground: "#d63384",
+          sliderHoverBackground: "#f06292",
+          sliderActiveBackground: "#f8bbd9",
         },
         breadcrumb: {
           background: "#fef7f7",
@@ -885,9 +885,9 @@ export const naturePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#f5f5f5",
-          sliderBackground: "#d63384",
-          sliderHoverBackground: "#d63384",
-          sliderActiveBackground: "#d63384",
+          sliderBackground: "#d6338460",
+          sliderHoverBackground: "#d6338480",
+          sliderActiveBackground: "#d63384a0",
         },
         syntax: {
           comment: "#8e8e93",
@@ -1102,10 +1102,10 @@ export const naturePresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#8b4513",
-          sliderBackground: "#d2691e",
-          sliderHoverBackground: "#d2691e",
-          sliderActiveBackground: "#d2691e",
+          shadow: "#bf360c",
+          sliderBackground: "#ff8c00",
+          sliderHoverBackground: "#ffa500",
+          sliderActiveBackground: "#ffb74d",
         },
         breadcrumb: {
           background: "#2f1b14",
@@ -1115,9 +1115,9 @@ export const naturePresets: ThemePreset[] = [
         },
         minimap: {
           background: "#3d2317",
-          sliderBackground: "#d2691e",
-          sliderHoverBackground: "#d2691e",
-          sliderActiveBackground: "#d2691e",
+          sliderBackground: "#ff8c0060",
+          sliderHoverBackground: "#ff8c0080",
+          sliderActiveBackground: "#ff8c00a0",
         },
         syntax: {
           comment: "#cd853f",

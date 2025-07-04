@@ -182,10 +182,10 @@ export const retroPresets: ThemePreset[] = [
           focusForeground: "#654321",
         },
         scrollbar: {
-          shadow: "#cd853f",
+          shadow: "#f5f5dc",
           sliderBackground: "#8b4513",
-          sliderHoverBackground: "#8b4513",
-          sliderActiveBackground: "#8b4513",
+          sliderHoverBackground: "#a0522d",
+          sliderActiveBackground: "#d2691e",
         },
         breadcrumb: {
           background: "#f0e68c",
@@ -195,9 +195,9 @@ export const retroPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#ffeaa7",
-          sliderBackground: "#8b4513",
-          sliderHoverBackground: "#cd853f",
-          sliderActiveBackground: "#daa520",
+          sliderBackground: "#8b451360",
+          sliderHoverBackground: "#8b451380",
+          sliderActiveBackground: "#8b4513a0",
         },
         syntax: {
           comment: "#8b4513",
@@ -412,10 +412,10 @@ export const retroPresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#654321",
-          sliderBackground: "#cd7f32",
-          sliderHoverBackground: "#cd7f32",
-          sliderActiveBackground: "#cd7f32",
+          shadow: "#f5f5dc",
+          sliderBackground: "#8b4513",
+          sliderHoverBackground: "#a0522d",
+          sliderActiveBackground: "#d2691e",
         },
         breadcrumb: {
           background: "#2f1b14",
@@ -425,9 +425,9 @@ export const retroPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#3d2317",
-          sliderBackground: "#cd7f32",
-          sliderHoverBackground: "#cd7f32",
-          sliderActiveBackground: "#cd7f32",
+          sliderBackground: "#cd7f3260",
+          sliderHoverBackground: "#cd7f3280",
+          sliderActiveBackground: "#cd7f32a0",
         },
         syntax: {
           comment: "#cd853f",

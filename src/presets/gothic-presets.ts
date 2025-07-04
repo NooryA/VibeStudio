@@ -184,8 +184,8 @@ export const gothicPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#000000",
           sliderBackground: "#8b0000",
-          sliderHoverBackground: "#8b0000",
-          sliderActiveBackground: "#8b0000",
+          sliderHoverBackground: "#dc143c",
+          sliderActiveBackground: "#ff1744",
         },
         breadcrumb: {
           background: "#1a0000",
@@ -195,9 +195,9 @@ export const gothicPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#0d0000",
-          sliderBackground: "#8b0000",
-          sliderHoverBackground: "#b30000",
-          sliderActiveBackground: "#ff0000",
+          sliderBackground: "#8b000060",
+          sliderHoverBackground: "#8b000080",
+          sliderActiveBackground: "#8b0000a0",
         },
         syntax: {
           comment: "#696969",
@@ -414,8 +414,8 @@ export const gothicPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#333333",
           sliderBackground: "#dc143c",
-          sliderHoverBackground: "#dc143c",
-          sliderActiveBackground: "#dc143c",
+          sliderHoverBackground: "#ff1744",
+          sliderActiveBackground: "#ff4569",
         },
         breadcrumb: {
           background: "#0d0d0d",
@@ -425,9 +425,9 @@ export const gothicPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#1a1a1a",
-          sliderBackground: "#dc143c",
-          sliderHoverBackground: "#dc143c",
-          sliderActiveBackground: "#dc143c",
+          sliderBackground: "#dc143c60",
+          sliderHoverBackground: "#dc143c80",
+          sliderActiveBackground: "#dc143ca0",
         },
         syntax: {
           comment: "#800020",
@@ -644,8 +644,8 @@ export const gothicPresets: ThemePreset[] = [
         scrollbar: {
           shadow: "#483d8b",
           sliderBackground: "#9acd32",
-          sliderHoverBackground: "#9acd32",
-          sliderActiveBackground: "#9acd32",
+          sliderHoverBackground: "#adff2f",
+          sliderActiveBackground: "#7fff00",
         },
         breadcrumb: {
           background: "#1a0a1a",
@@ -655,9 +655,9 @@ export const gothicPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#2e0a2e",
-          sliderBackground: "#9acd32",
-          sliderHoverBackground: "#9acd32",
-          sliderActiveBackground: "#9acd32",
+          sliderBackground: "#9acd3260",
+          sliderHoverBackground: "#9acd3280",
+          sliderActiveBackground: "#9acd32a0",
         },
         syntax: {
           comment: "#8b008b",
@@ -872,10 +872,10 @@ export const gothicPresets: ThemePreset[] = [
           focusForeground: "#ffffff",
         },
         scrollbar: {
-          shadow: "#696969",
-          sliderBackground: "#c0c0c0",
-          sliderHoverBackground: "#c0c0c0",
-          sliderActiveBackground: "#c0c0c0",
+          shadow: "#000000",
+          sliderBackground: "#8b0000",
+          sliderHoverBackground: "#dc143c",
+          sliderActiveBackground: "#ff1744",
         },
         breadcrumb: {
           background: "#1c1c1c",
@@ -885,9 +885,9 @@ export const gothicPresets: ThemePreset[] = [
         },
         minimap: {
           background: "#2f2f2f",
-          sliderBackground: "#c0c0c0",
-          sliderHoverBackground: "#c0c0c0",
-          sliderActiveBackground: "#c0c0c0",
+          sliderBackground: "#c0c0c060",
+          sliderHoverBackground: "#c0c0c080",
+          sliderActiveBackground: "#c0c0c0a0",
         },
         syntax: {
           comment: "#a9a9a9",
