@@ -1,4 +1,8 @@
-# VibeStudio 🎨
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f00d9540-7214-4817-998d-e0077e684675" width="300" alt="VibeStudio Logo" />
+</p>
+
+<h1 align="center">VibeStudio</h1>
 
 **The ultimate VS Code theme customizer with live preview, comprehensive controls, and 20+ preset themes for your entire development environment.**
 
