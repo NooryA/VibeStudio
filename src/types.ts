@@ -132,6 +132,24 @@ export interface TerminalTheme {
       dropBorder: string;
     };
 
+    // Breadcrumb
+    breadcrumb?: {
+      background: string;
+    };
+
+    // Editor Gutter
+    editorGutter?: {
+      background: string;
+    };
+
+    // Minimap
+    minimap?: {
+      background: string;
+      sliderBackground: string;
+      sliderHoverBackground: string;
+      sliderActiveBackground: string;
+    };
+
     // Tabs
     tab: {
       background: string;
@@ -207,6 +225,9 @@ export interface TerminalTheme {
     // Scrollbar
     scrollbar: {
       shadow: string;
+      sliderBackground: string;
+      sliderHoverBackground: string;
+      sliderActiveBackground: string;
     };
 
     // Syntax Highlighting

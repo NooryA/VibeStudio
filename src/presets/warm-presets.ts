@@ -183,6 +183,21 @@ export const warmPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#1a0e08",
+          sliderBackground: "#ff6347",
+          sliderHoverBackground: "#ff6347",
+          sliderActiveBackground: "#ff6347",
+        },
+        breadcrumb: {
+          background: "#3d1b0a",
+        },
+        editorGutter: {
+          background: "#3d1b0a",
+        },
+        minimap: {
+          background: "#2a1408",
+          sliderBackground: "#ff6347",
+          sliderHoverBackground: "#ff7f66",
+          sliderActiveBackground: "#ff4500",
         },
         syntax: {
           comment: "#cd853f",
@@ -398,6 +413,21 @@ export const warmPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#2e1b0e",
+          sliderBackground: "#d2691e",
+          sliderHoverBackground: "#d2691e",
+          sliderActiveBackground: "#d2691e",
+        },
+        breadcrumb: {
+          background: "#3c2415",
+        },
+        editorGutter: {
+          background: "#3c2415",
+        },
+        minimap: {
+          background: "#2e1b0e",
+          sliderBackground: "#d2691e",
+          sliderHoverBackground: "#d2691e",
+          sliderActiveBackground: "#d2691e",
         },
         syntax: {
           comment: "#a0522d",
@@ -613,6 +643,21 @@ export const warmPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#5a3016",
+          sliderBackground: "#ff6b35",
+          sliderHoverBackground: "#ff6b35",
+          sliderActiveBackground: "#ff6b35",
+        },
+        breadcrumb: {
+          background: "#4a2c17",
+        },
+        editorGutter: {
+          background: "#4a2c17",
+        },
+        minimap: {
+          background: "#5a3016",
+          sliderBackground: "#ff6b35",
+          sliderHoverBackground: "#ff6b35",
+          sliderActiveBackground: "#ff6b35",
         },
         syntax: {
           comment: "#db7f67",
@@ -828,6 +873,21 @@ export const warmPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#402e0d",
+          sliderBackground: "#ffb700",
+          sliderHoverBackground: "#ffb700",
+          sliderActiveBackground: "#ffb700",
+        },
+        breadcrumb: {
+          background: "#1a1309",
+        },
+        editorGutter: {
+          background: "#1a1309",
+        },
+        minimap: {
+          background: "#2d1f0a",
+          sliderBackground: "#ffb700",
+          sliderHoverBackground: "#ffb700",
+          sliderActiveBackground: "#ffb700",
         },
         syntax: {
           comment: "#daa520",
@@ -1043,6 +1103,21 @@ export const warmPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#330000",
+          sliderBackground: "#ff4500",
+          sliderHoverBackground: "#ff4500",
+          sliderActiveBackground: "#ff4500",
+        },
+        breadcrumb: {
+          background: "#1a0000",
+        },
+        editorGutter: {
+          background: "#1a0000",
+        },
+        minimap: {
+          background: "#2d0000",
+          sliderBackground: "#ff4500",
+          sliderHoverBackground: "#ff4500",
+          sliderActiveBackground: "#ff4500",
         },
         syntax: {
           comment: "#cc3300",

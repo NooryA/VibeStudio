@@ -183,6 +183,21 @@ export const retroPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#cd853f",
+          sliderBackground: "#8b4513",
+          sliderHoverBackground: "#8b4513",
+          sliderActiveBackground: "#8b4513",
+        },
+        breadcrumb: {
+          background: "#f0e68c",
+        },
+        editorGutter: {
+          background: "#f0e68c",
+        },
+        minimap: {
+          background: "#ffeaa7",
+          sliderBackground: "#8b4513",
+          sliderHoverBackground: "#cd853f",
+          sliderActiveBackground: "#daa520",
         },
         syntax: {
           comment: "#8b4513",
@@ -398,6 +413,21 @@ export const retroPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#654321",
+          sliderBackground: "#cd7f32",
+          sliderHoverBackground: "#cd7f32",
+          sliderActiveBackground: "#cd7f32",
+        },
+        breadcrumb: {
+          background: "#2f1b14",
+        },
+        editorGutter: {
+          background: "#2f1b14",
+        },
+        minimap: {
+          background: "#3d2317",
+          sliderBackground: "#cd7f32",
+          sliderHoverBackground: "#cd7f32",
+          sliderActiveBackground: "#cd7f32",
         },
         syntax: {
           comment: "#cd853f",

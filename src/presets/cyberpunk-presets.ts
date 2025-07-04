@@ -183,6 +183,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#000000",
+          sliderBackground: "#ff3333",
+          sliderHoverBackground: "#ff6666",
+          sliderActiveBackground: "#ff0000",
+        },
+        breadcrumb: {
+          background: "#1a0505",
+        },
+        editorGutter: {
+          background: "#1a0505",
+        },
+        minimap: {
+          background: "#0f0202",
+          sliderBackground: "#ff3333",
+          sliderHoverBackground: "#ff6666",
+          sliderActiveBackground: "#ff0000",
         },
         syntax: {
           comment: "#aa2222",
@@ -397,6 +412,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#000000",
+          sliderBackground: "#e100ff",
+          sliderHoverBackground: "#e100ff",
+          sliderActiveBackground: "#e100ff",
+        },
+        breadcrumb: {
+          background: "#0f0020",
+        },
+        editorGutter: {
+          background: "#0f0020",
+        },
+        minimap: {
+          background: "#0a0015",
+          sliderBackground: "#e100ff",
+          sliderHoverBackground: "#e100ff",
+          sliderActiveBackground: "#e100ff",
         },
         syntax: {
           comment: "#9d4edd",
@@ -612,6 +642,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#000000",
+          sliderBackground: "#ff0080",
+          sliderHoverBackground: "#ff0080",
+          sliderActiveBackground: "#ff0080",
+        },
+        breadcrumb: {
+          background: "#000814",
+        },
+        editorGutter: {
+          background: "#000814",
+        },
+        minimap: {
+          background: "#000411",
+          sliderBackground: "#ff0080",
+          sliderHoverBackground: "#ff0080",
+          sliderActiveBackground: "#ff0080",
         },
         syntax: {
           comment: "#0077be",
@@ -827,6 +872,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#0f0419",
+          sliderBackground: "#ff007f",
+          sliderHoverBackground: "#ff007f",
+          sliderActiveBackground: "#ff007f",
+        },
+        breadcrumb: {
+          background: "#120458",
+        },
+        editorGutter: {
+          background: "#120458",
+        },
+        minimap: {
+          background: "#0f0419",
+          sliderBackground: "#ff007f",
+          sliderHoverBackground: "#ff007f",
+          sliderActiveBackground: "#ff007f",
         },
         syntax: {
           comment: "#7209b7",
@@ -1042,6 +1102,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#000000",
+          sliderBackground: "#ccff00",
+          sliderHoverBackground: "#ccff00",
+          sliderActiveBackground: "#ccff00",
+        },
+        breadcrumb: {
+          background: "#001100",
+        },
+        editorGutter: {
+          background: "#001100",
+        },
+        minimap: {
+          background: "#000000",
+          sliderBackground: "#ccff00",
+          sliderHoverBackground: "#ccff00",
+          sliderActiveBackground: "#ccff00",
         },
         syntax: {
           comment: "#88cc00",
@@ -1257,6 +1332,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#003300",
+          sliderBackground: "#00ff41",
+          sliderHoverBackground: "#00ff41",
+          sliderActiveBackground: "#00ff41",
+        },
+        breadcrumb: {
+          background: "#000000",
+        },
+        editorGutter: {
+          background: "#000000",
+        },
+        minimap: {
+          background: "#001100",
+          sliderBackground: "#00ff41",
+          sliderHoverBackground: "#00ff41",
+          sliderActiveBackground: "#00ff41",
         },
         syntax: {
           comment: "#33ff33",
@@ -1472,6 +1562,21 @@ export const cyberpunkPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#404040",
+          sliderBackground: "#ff00ff",
+          sliderHoverBackground: "#ff00ff",
+          sliderActiveBackground: "#ff00ff",
+        },
+        breadcrumb: {
+          background: "#0a0a0a",
+        },
+        editorGutter: {
+          background: "#0a0a0a",
+        },
+        minimap: {
+          background: "#202020",
+          sliderBackground: "#ff00ff",
+          sliderHoverBackground: "#ff00ff",
+          sliderActiveBackground: "#ff00ff",
         },
         syntax: {
           comment: "#ff40ff",

@@ -183,6 +183,21 @@ export const neonPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#333333",
+          sliderBackground: "#ffff00",
+          sliderHoverBackground: "#ffff00",
+          sliderActiveBackground: "#ffff00",
+        },
+        breadcrumb: {
+          background: "#1a1a00",
+        },
+        editorGutter: {
+          background: "#1a1a00",
+        },
+        minimap: {
+          background: "#2a2a00",
+          sliderBackground: "#ffff00",
+          sliderHoverBackground: "#ffff66",
+          sliderActiveBackground: "#ffff33",
         },
         syntax: {
           comment: "#cccccc",
@@ -398,6 +413,21 @@ export const neonPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#30363d",
+          sliderBackground: "#ff0066",
+          sliderHoverBackground: "#ff0066",
+          sliderActiveBackground: "#ff0066",
+        },
+        breadcrumb: {
+          background: "#0d1117",
+        },
+        editorGutter: {
+          background: "#0d1117",
+        },
+        minimap: {
+          background: "#21262d",
+          sliderBackground: "#ff0066",
+          sliderHoverBackground: "#ff0066",
+          sliderActiveBackground: "#ff0066",
         },
         syntax: {
           comment: "#ff3366",
@@ -613,6 +643,21 @@ export const neonPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#2a4f2a",
+          sliderBackground: "#39ff14",
+          sliderHoverBackground: "#39ff14",
+          sliderActiveBackground: "#39ff14",
+        },
+        breadcrumb: {
+          background: "#0f1f0f",
+        },
+        editorGutter: {
+          background: "#0f1f0f",
+        },
+        minimap: {
+          background: "#1a2f1a",
+          sliderBackground: "#39ff14",
+          sliderHoverBackground: "#39ff14",
+          sliderActiveBackground: "#39ff14",
         },
         syntax: {
           comment: "#7fff00",
@@ -828,6 +873,21 @@ export const neonPresets: ThemePreset[] = [
         },
         scrollbar: {
           shadow: "#003366",
+          sliderBackground: "#00bfff",
+          sliderHoverBackground: "#00bfff",
+          sliderActiveBackground: "#00bfff",
+        },
+        breadcrumb: {
+          background: "#001122",
+        },
+        editorGutter: {
+          background: "#001122",
+        },
+        minimap: {
+          background: "#002244",
+          sliderBackground: "#00bfff",
+          sliderHoverBackground: "#00bfff",
+          sliderActiveBackground: "#00bfff",
         },
         syntax: {
           comment: "#4080ff",

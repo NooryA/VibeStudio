@@ -214,6 +214,18 @@ export class ThemeManager {
           activeBorder: colorCustomizations["panelTitle.activeBorder"] || "#007acc",
           inactiveForeground: colorCustomizations["panelTitle.inactiveForeground"] || "#cccccc80",
         },
+        breadcrumb: {
+          background: colorCustomizations["breadcrumb.background"] || "#1e1e1e",
+        },
+        editorGutter: {
+          background: colorCustomizations["editorGutter.background"] || "#1e1e1e",
+        },
+        minimap: {
+          background: colorCustomizations["minimap.background"] || "#1e1e1e",
+          sliderBackground: colorCustomizations["minimapSlider.background"] || "#79797966",
+          sliderHoverBackground: colorCustomizations["minimapSlider.hoverBackground"] || "#646464b3",
+          sliderActiveBackground: colorCustomizations["minimapSlider.activeBackground"] || "#bfbfbf66",
+        },
         tab: {
           background: colorCustomizations["editorGroupHeader.tabsBackground"] || "#252526",
           activeBackground: colorCustomizations["tab.activeBackground"] || "#1e1e1e",
@@ -272,6 +284,9 @@ export class ThemeManager {
         },
         scrollbar: {
           shadow: colorCustomizations["scrollbar.shadow"] || "#000000",
+          sliderBackground: colorCustomizations["scrollbarSlider.background"] || "#79797966",
+          sliderHoverBackground: colorCustomizations["scrollbarSlider.hoverBackground"] || "#646464b3",
+          sliderActiveBackground: colorCustomizations["scrollbarSlider.activeBackground"] || "#bfbfbf66",
         },
         syntax: {
           comment: tokenCustomizations.comments || "#6a9955",
@@ -455,6 +470,23 @@ export class ThemeManager {
         "list.hoverForeground": theme.editorTheme.list.hoverForeground,
         "list.focusBackground": theme.editorTheme.list.focusBackground,
         "list.focusForeground": theme.editorTheme.list.focusForeground,
+
+        // Scrollbar
+        "scrollbarSlider.background": theme.editorTheme.scrollbar?.sliderBackground,
+        "scrollbarSlider.hoverBackground": theme.editorTheme.scrollbar?.sliderHoverBackground,
+        "scrollbarSlider.activeBackground": theme.editorTheme.scrollbar?.sliderActiveBackground,
+
+        // Breadcrumb
+        "breadcrumb.background": theme.editorTheme.breadcrumb?.background,
+
+        // Editor Gutter
+        "editorGutter.background": theme.editorTheme.editorGutter?.background,
+
+        // Minimap
+        "minimap.background": theme.editorTheme.minimap?.background,
+        "minimapSlider.background": theme.editorTheme.minimap?.sliderBackground,
+        "minimapSlider.hoverBackground": theme.editorTheme.minimap?.sliderHoverBackground,
+        "minimapSlider.activeBackground": theme.editorTheme.minimap?.sliderActiveBackground,
       };
 
       Object.assign(colorCustomizations, editorColors);
